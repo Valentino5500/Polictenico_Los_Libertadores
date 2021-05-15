@@ -1,0 +1,283 @@
+::-webkit-scrollbar
+{
+    width: 10px;
+    background:linear-gradient(to top, rgb(255, 0, 179),#790050);
+    box-shadow: 0 0 0px #29323c,
+}
+::-webkit-scrollbar:hover
+{
+    background:linear-gradient(to top, #008a,#00ffe7);
+    border-radius: rgb(0, 0, 0) 6%;
+}
+::-webkit-scrollbar-thumb
+{
+    width: 12px;
+    background:linear-gradient(to top, rgb(0, 0, 136),#00ffe7);
+    border-radius: 200px 200px 200px 200px;
+    box-shadow: 0 0 500px rgb(0, 0, 136),
+                        0 0 500px #00ffe7,
+                        0 0 500px rgb(0, 0, 136),
+                        0  0 500px #00ffe7;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background:linear-gradient(to top, rgb(255, 0, 179),#790050);
+    border-radius: 200px 200px 200px 200px;
+    box-shadow: 0 0 500px  rgb(255, 0, 179),
+                            0 0 500px ,#790050,
+                            0 0 500px rgb(255, 0, 179),
+                            0  0 500px ,#790050;
+}
+
+.custom-shape-divider-top-1620753035 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1620753035 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 250px;
+}
+
+.custom-shape-divider-top-1620753035 .shape-fill {
+    fill: #FF00D9; 
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1620753035 svg {
+        width: calc(100% + 1.3px);
+        height: 127px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 76.7%) {
+    .custom-shape-divider-top-1620753035 svg {
+        width: calc(134% + 1.3px);
+        height: 76px;
+    }
+}
+.contenedor
+{
+    width: 100%;
+
+    margin:0 auto;
+}
+.uno
+{
+
+    text-align:center;
+    background: url(1494.jpg);
+    position: center;
+    padding: 1% 1%;
+    margin: 0px 0;
+    color: #000000;
+    font-size: 150%;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255); 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.uno p
+{
+    z-index: 10;
+}
+
+body
+{
+    padding: 0px 0px;
+    margin: 0px 0;
+    background: #ffffff;
+}
+.dos
+{
+    color: #ffffff;
+    text-align: center;
+    background: url(906078.jpg) center;
+    position: center;
+    padding: 1% 1%;
+    margin: 0px 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tres
+{
+
+    align-items: baseline;
+    position: center;
+    display:flex;
+    padding: 10px 10px;
+    margin: 1px 0;
+}
+.atras
+{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #000000;
+    position: relative;
+    width: 80% ;
+    height: 80% ;
+    padding: 1%;
+    bottom: -10px;
+    right: -10%;
+    text-align:justify;
+    box-shadow: 0 0 5px #0313f4,
+    0 0 25px #05b0ff,
+    0 0 50px #3403bb,
+    0 0 20px #00eeffe0;
+}
+.luz
+{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #000000;
+    position: relative;
+    width: 80% ;
+    height: 80% ;
+    padding: 1%;
+    bottom: -10px;
+    right: -10%;
+    text-align:justify;
+    box-shadow: 0 0 5px #0313f4,
+    0 0 25px #05b0ff,
+    0 0 50px #3403bb,
+    0 0 20px #00eeffe0;
+}
+.cuatro h1
+{
+    text-align: center; 
+    color:#ffffff;
+    bottom: 10px;
+    padding: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cuatro
+{
+    background:#F7C1BB;
+    padding: 4% ;
+    margin: 0px 0;  
+
+}
+
+.luz {
+
+	animation: textColor 2s ease infinite;
+}
+.atras {
+
+	animation: textColor 2s ease infinite;
+}
+
+
+@keyframes animateGlow {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes textColor {
+	0% {
+		color: #7e0fff;
+	}
+	50% {
+		color: #0fffc1;
+	}
+	100% {
+		color: #7e0fff;
+	}
+}
+
+
+
+.container {
+    perspective: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    transform: rotateX(45deg) scale(0.7);
+    background-color: #192734;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    cursor: pointer;
+    width: 30%;
+    transition: 0.5s all ease;
+    box-shadow: 0px 20px 50px #555;
+  }
+  .item:hover {
+    cursor: pointer;
+    transform: rotate(0deg) scale(1);
+    transition: 0.5s all ease;
+    z-index: 400;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+  }
+  
+  .card__content {
+    padding: 3rem 3rem;
+    text-align: center;
+  }
+  .card__header {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  .card__text {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #8899a6;
+    margin-bottom: 2.5rem;
+  }
+  .card__btn {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #e6ecff;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .card__btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+  }
+  .card__btn:hover,
+  .card__btn:active {
+    background-color: #dce4ff;
+  }
+  .card__btn:hover span,
+  .card__btn:active span {
+    margin-left: 1.5rem;
+  }
+  
+  @media (max-width: 992px) {
+    .item {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .item {
+      width: 80%;
+    }
+  }
+  
